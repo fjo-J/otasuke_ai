@@ -1,4 +1,4 @@
-　　<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
@@ -104,7 +104,30 @@
       <div class="flex justify-between items-center h-16">
         <!-- Logo -->
         <a href="#" class="flex items-center">
-          <img src="https://via.placeholder.com/150x40/16a34a/ffffff?text=オタスケAI" alt="オタスケAI ロゴ" class="h-10 w-auto">
+          <svg width="180" height="50" viewBox="0 0 900 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- O mark with gradient -->
+            <defs>
+              <linearGradient id="oGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#7ec8c4;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+              </linearGradient>
+              <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#0891b2;stop-opacity:1" />
+                <stop offset="50%" style="stop-color:#14b8a6;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#22c55e;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+            
+            <!-- O mark -->
+            <path d="M 50 100 Q 50 50 80 50 Q 110 50 130 70 Q 150 90 150 100 Q 150 130 130 150 Q 110 170 80 170 Q 50 170 50 140 Z" fill="url(#oGradient)" opacity="0.9"/>
+            <path d="M 70 100 Q 70 80 80 75 Q 90 70 95 75 L 100 85 Q 95 80 90 85 Q 85 90 85 100 Q 85 110 90 115 Q 95 120 100 115 L 95 125 Q 90 130 80 125 Q 70 120 70 100 Z" fill="url(#oGradient)"/>
+            
+            <!-- オ -->
+            <text x="270" y="140" font-family="'Noto Sans JP', sans-serif" font-size="110" font-weight="700" fill="url(#textGradient)">オタスケ</text>
+            
+            <!-- AI -->
+            <text x="750" y="140" font-family="'Inter', sans-serif" font-size="110" font-weight="700" fill="url(#textGradient)">AI</text>
+          </svg>
         </a>
         
         <!-- Desktop Navigation -->
@@ -716,7 +739,23 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <img src="https://via.placeholder.com/150x40/16a34a/ffffff?text=オタスケAI" alt="オタスケAI ロゴ" class="h-10 w-auto mb-4">
+          <svg width="150" height="40" viewBox="0 0 900 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="mb-4">
+            <defs>
+              <linearGradient id="oGradientFooter" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#7ec8c4;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+              </linearGradient>
+              <linearGradient id="textGradientFooter" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#0891b2;stop-opacity:1" />
+                <stop offset="50%" style="stop-color:#14b8a6;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#22c55e;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+            <path d="M 50 100 Q 50 50 80 50 Q 110 50 130 70 Q 150 90 150 100 Q 150 130 130 150 Q 110 170 80 170 Q 50 170 50 140 Z" fill="url(#oGradientFooter)" opacity="0.9"/>
+            <path d="M 70 100 Q 70 80 80 75 Q 90 70 95 75 L 100 85 Q 95 80 90 85 Q 85 90 85 100 Q 85 110 90 115 Q 95 120 100 115 L 95 125 Q 90 130 80 125 Q 70 120 70 100 Z" fill="url(#oGradientFooter)"/>
+            <text x="270" y="140" font-family="'Noto Sans JP', sans-serif" font-size="110" font-weight="700" fill="url(#textGradientFooter)">オタスケ</text>
+            <text x="750" y="140" font-family="'Inter', sans-serif" font-size="110" font-weight="700" fill="url(#textGradientFooter)">AI</text>
+          </svg>
           <p class="text-sm">あなたの会社の経営課題を、AIがまるっと解決。</p>
         </div>
         <div>
